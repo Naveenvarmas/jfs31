@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /*.container{
+            display: grid;
+           /* grid-template-rows: 200px 100px 50px;
+           grid-template-columns: repeat(auto-fit,minmax(100px,30px));
+           /* grid-template-columns: 200px 100px 50px;
+            gap: 20px;
+        }
+        .child{
+            display: grid;
+            background-color: rgb(255,255,2,0.5);
+            place-items: center;
+            color: red;
+        }
+        h1{
+            font-size: 3em;
+           
+        }
+        .child{
+            grid-column: 1/3;
+        }*/
+        .container{
+            display: flex;
+            gap:20px;
+            padding: 20px;
+            border:5px solid black;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+        .child{
+            display: flex;
+            border:2px solid red;
+            justify-content: space-around;
+            padding: 20px;
+            
+            
+            
+        
+
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="child">naveen</div>
+        <div class="child"> naveen</div>
+        <div class="child">naveen</div>
+        <div class="child">varma</div>
+        <div class="child">varma</div>
+        <div class="child">varma</div>
+    </div>
+    <!-- <h1><em>naveen</em>naveen</h1> -->
+</body>
+</html>
