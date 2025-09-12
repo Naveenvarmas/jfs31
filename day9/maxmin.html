@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       
+        .con{
+            width: 150px;
+            height: 150px;
+            border: 2px solid red;
+            display: flex;
+         
+            
+            align-items: center;
+            justify-content: space-around;
+            color: aliceblue;
+            
+            
+        }
+        #na{
+            background: linear-gradient(to left,black, red, green);
+        }
+        #va{
+            background: radial-gradient(circle ,blue, green, yellow);
+        }
+        #sa{
+            background: conic-gradient(blue,red)
+        }
+        #container{
+            display: flex;
+           
+           
+            justify-content: space-around;
+        }
+       table{
+        text-align: center;
+       }
+        th{
+            color:red;
+        }
+        td{
+            background-color: aqua;
+            color: black;
+        }
+        
+    </style>
+</head>
+<body>
+    <div id="container">
+    <div id="na" class="con">naveen</div><br>
+    <div id="va" class="con">varma</div><br>
+  
+    <div id="sa" class="con">sagiraju</div>
+    </div><br>
+
+<table border="2" cellpadding="5" >
+   <tr>
+    <th>column 1</th>
+    <th>column 2</th>
+    <th>column 3</th>
+   </tr>
+   <tr>
+    <td rowspan="2">Naveen</td>
+   <td>varma</td>
+   <td>sag</td>
+   </tr>
+   <td>yeah</td>
+   <td>ooo</td>
+   <tr>
+    <td colspan="3">yeah ohh</td>
+   </tr>
+
+</table>
+<br><br>
+<table border="2" cellpadding="5">
+    <tr>
+        <th>Level1</th>
+        <th>Level2</th>
+        <th>Level3</th>
+        <th>Info</th>
+        <th>Name</th>
+    </tr>
+    <tr>
+        <td rowspan="6">System</td>
+        <td rowspan="4">SystemApps</td>
+        <td rowspan="3">SystemEnv</td>
+        <td>App test</td>
+        <td>foo</td>
+    </tr>
+    <tr>
+        <td>App Memory</td>
+        <td>Foo</td>
+    </tr>
+    <tr>
+        <td>App Test</td>
+        <td>Bar</td>
+    </tr>
+    
+    <tr>
+        <td>SystemEnv2</td>
+    <td>App Test</td>
+    <td>bar</td>
+
+    </tr>
+    <tr>
+        <td rowspan="2">System Memory</td>
+        <td rowspan="2"> Memory Test</td>
+        <td>Memory fune</td>
+        <td>foo</td>
+    </tr>
+    <tr>
+        <td>Apes Test</td>
+        <td> foo</td>
+    </tr>
+</table>
+
+
+   
+</body>
+</html>
